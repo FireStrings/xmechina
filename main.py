@@ -12,3 +12,4 @@ temp = os.popen("/opt/vc/bin/vcgencmd measure_temp").read().split("=")[1]
 data = time.ctime()
 
 print(data)
+print(temp)
